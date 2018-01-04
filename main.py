@@ -1,7 +1,7 @@
 #! /usr/bin/python
 
-def display():
-		print 'working'
+def display(message="End."):
+		print message
 
 if __name__ == '__main__':
-    print 'working.'
+		display('Hello from python!')
